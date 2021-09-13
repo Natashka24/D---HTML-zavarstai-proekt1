@@ -1,0 +1,549 @@
+body,
+ul,
+dl,
+dd,
+dt,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(229, 229, 229, 1);
+}
+
+.nav_header a {
+    font-family: "Montserrat", "Tahoma", serif;
+    color: rgba(174, 124, 120, 1);
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 100%;
+}
+
+ul li {
+    list-style: none;
+}
+
+.nav_header ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(174, 124, 120, 1);
+    border-top: 1px solid rgba(174, 124, 120, 1);
+}
+
+.nav_header .logotop {
+    position: absolute;
+    left: 46%;
+    top: 33px;
+}
+
+.otz {
+    margin-right: 75px;
+}
+
+.present {
+    display: grid;
+    grid-template-columns: 1fr 386px 386px;
+    gap: 20px;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    height: 470px;
+}
+
+.present p {
+    font-family: "Montserrat", "Tahoma", serif;
+    color: rgba(174, 124, 120, 1);
+    font-size: 24px;
+    text-decoration: none;
+    line-height: 120%;
+    font-weight: 300;
+}
+
+h1 {
+    font-family: "Playfair Display", "Georgia", sans-serif;
+    color: rgba(174, 124, 120, 1);
+    font-size: 44px;
+    text-decoration: none;
+    font-weight: 300;
+    line-height: 140%;
+    margin: 0;
+}
+
+.button {
+    font-family: "Montserrat", "Tahoma", serif;
+    color: rgba(229, 229, 229, 1);
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 100%;
+    background-color: rgba(216, 153, 153, 1);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 75px;
+    padding-right: 75px;
+    border-radius: 35px;
+    margin-top: 45px;
+    font-weight: 300;
+}
+
+.present img {
+    border-radius: 10px;
+}
+
+.foto_present {
+    margin-top: auto;
+}
+
+.advantages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.advantages dt {
+    font-family: "Montserrat", "Tahoma", serif;
+    color: rgba(174, 124, 120, 1);
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.advantages dd {
+    font-family: "Montserrat", "Tahoma", serif;
+    color: rgba(174, 124, 120, 1);
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 120%;
+    font-weight: 300;
+    padding-left: 20px;
+}
+
+.advantages-blocks {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.advantages-ico {
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.advantages-text {
+    display: inline-block;
+}
+
+.popular {
+    display: grid;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.slaider {
+    display: flex;
+    width: 794px;
+}
+
+.popular h2 {
+    font-family: "Playfair Display", "Georgia", sans-serif;
+    color: rgba(174, 124, 120, 1);
+    font-size: 36px;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 140%;
+    padding-left: 200px;
+}
+
+.popular h3 {
+    font-family: "Montserrat", "Tahoma", serif;
+    color: rgba(174, 124, 120, 1);
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: 500;
+}
+
+.popular p {
+    font-family: "Montserrat", "Tahoma", serif;
+    color: rgba(174, 124, 120, 1);
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 120%;
+    font-weight: 300;
+}
+
+.popular .popular-title {
+    font-family: "Montserrat", "Tahoma", serif;
+    color: rgba(174, 124, 120, 1);
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: 500;
+}
+
+.slaider_contr {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 70px 70px;
+}
+
+.catalog {
+    display: grid;
+    grid-template-columns: 387px 387px 387px;
+    margin-top: 70px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.catalog a {
+    display: block;
+    width: 387px;
+    height: 442px;
+    background-color: rgba(174, 124, 120, 0.6);
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.catalog .weddings-bouket {
+    background-image: url('../img/foto_cat1.jpg');
+    background-repeat: no-repeat;
+    width: 387px;
+    height: 442px;
+    border-radius: 10px;
+}
+
+.catalog .bouquets-peonies {
+    background-image: url('../img/foto_cat2.jpg');
+    background-repeat: no-repeat;
+    width: 387px;
+    height: 442px;
+    border-radius: 10px;
+}
+
+.catalog .bouquets-choose {
+    background-image: url('../img/foto_cat3.jpg');
+    background-repeat: no-repeat;
+    width: 387px;
+    height: 442px;
+    border-radius: 10px;
+}
+
+.catalog h3 {
+    font-family: "Playfair Display", "Georgia", sans-serif;
+    color: rgba(229, 229, 229, 1);
+    font-size: 36px;
+    text-decoration: none;
+    font-weight: 300;
+    line-height: 140%;
+    margin: 0;
+    text-align: center;
+    padding-top: 40%;
+}
+
+.catalog p {
+    font-family: "Montserrat", "Tahoma", serif;
+    color: rgba(229, 229, 229, 1);
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 300;
+    text-align: center;
+}
+
+.slaider_contr {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 70px 70px;
+}
+
+.slaider_contr .button-arrow {
+    border: none;
+}
+
+.discont {
+    display: grid;
+    grid-template-columns: 1fr 590px;
+    background-color: rgba(174, 124, 120, 1);
+    margin-top: 70px;
+    justify-content: center;
+    height: 391px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.discont h2 {
+    font-family: "Playfair Display", "Georgia", sans-serif;
+    color: rgba(229, 229, 229, 1);
+    font-size: 44px;
+    text-decoration: none;
+    font-weight: 300;
+    line-height: 140%;
+    padding-left: 100px;
+    padding-right: 125px;
+}
+
+.discont p {
+    font-family: "Montserrat", "Tahoma", serif;
+    color: rgba(229, 229, 229, 1);
+    font-size: 24px;
+    text-decoration: none;
+    line-height: 120%;
+    font-weight: 300;
+    padding-left: 100px;
+    padding-right: 125px;
+    padding-top: -20px;
+}
+
+.four-step h2 {
+    font-family: "Playfair Display", "Georgia", sans-serif;
+    color: rgba(174, 124, 120, 1);
+    font-size: 36px;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 140%;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.four-step h3 {
+    font-family: "Montserrat", "Tahoma", serif;
+    color: rgba(174, 124, 120, 1);
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 500;
+    text-align: center;
+}
+
+.four-step p {
+    font-family: "Montserrat", "Tahoma", serif;
+    color: rgba(174, 124, 120, 1);
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 300;
+    text-align: center;
+}
+
+.four-step {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.zakaz,
+.question,
+.pay,
+.delivery {
+    display: inline-block;
+}
+
+.steps img {
+    display: block;
+    margin: auto;
+}
+
+.our-news {
+    display: grid;
+    grid-template-areas: "1fr 285px 387px";
+    gap: 17px;
+}
+
+.news-img2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.news-text {
+    grid-row: span 2;
+}
+
+.news-img3 {
+    grid-row: span 2;
+}
+
+.news {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.news h2 {
+    font-family: "Playfair Display", "Georgia", sans-serif;
+    color: rgba(174, 124, 120, 1);
+    font-size: 36px;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 140%;
+    padding-top: 40px;
+}
+
+.news p {
+    font-family: "Montserrat", "Tahoma", serif;
+    color: rgba(174, 124, 120, 1);
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.news-ico {
+    display: flex;
+    gap: 20px;
+}
+
+.reviews h2 {
+    font-family: "Playfair Display", "Georgia", sans-serif;
+    color: rgba(174, 124, 120, 1);
+    font-size: 36px;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 140%;
+    text-align: center;
+}
+
+.reviews {
+    border: 1px solid rgba(174, 124, 120, 1);
+    width: 1200px;
+    height: 308px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.reviews p {
+    font-family: "Montserrat", "Tahoma", serif;
+    color: rgba(174, 124, 120, 1);
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 300;
+    text-align: center;
+}
+
+.reviews cite {
+    font-family: "Montserrat", "Tahoma", serif;
+    color: rgba(174, 124, 120, 1);
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 500;
+    text-align: center;
+}
+
+.reviews-conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.review {
+    display: inline-block;
+    text-align: center;
+}
+
+.contacts {
+    background-image: url('../img/map.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.contacts-block {
+    display: inline-block;
+    width: 386px;
+    height: 520px;
+    background-color: rgba(247, 250, 252, 1);
+    margin-left: 300px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.contacts-block h3 {
+    font-family: "Playfair Display", "Georgia", sans-serif;
+    color: rgba(174, 124, 120, 1);
+    font-size: 36px;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 140%;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.contacts-block p {
+    font-family: "Montserrat", "Tahoma", serif;
+    color: rgba(174, 124, 120, 1);
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 300;
+    padding-left: 30px;
+}
+
+.contacts-block a {
+    font-family: "Montserrat", "Tahoma", serif;
+    color: rgba(174, 124, 120, 1);
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 500;
+}
+
+.contacts-block .info {
+    font-family: "Montserrat", "Tahoma", serif;
+    color: rgba(174, 124, 120, 1);
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: rgba(174, 124, 120, 1);
+    padding: 20px;
+}
+
+footer a {
+    color: rgba(229, 229, 229, 1);
+    font-family: "Montserrat", "Tahoma", serif;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.nav_footer {
+    display: grid;
+    grid-template-columns: 100px 1fr 150px;
+    gap: 20px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_conteiner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer_ico {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
